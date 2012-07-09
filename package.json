@@ -1,0 +1,23 @@
+{
+  "author": "Elijah Insua <tmpvar@gmail.com> (http://tmpvar.com)",
+  "name": "collect",
+  "description": "quick and dirty website scraping from the command line",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tmpvar/collect.git"
+  },
+  "bin": {
+    "collect": "./index.js"
+  },
+  "dependencies": {
+    "jsdom": "~0.2.14",
+    "request": "~2.9.203",
+    "optimist": "~0.3.4"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
